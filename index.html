@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <title>My First Bitstarter</title>
     <link type="text/css" rel="stylesheet" 
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
 
     <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 40px;
+
+      /* Large desktop */
+      @media (min-width: 980px) {
+        body {
+          padding-top: 60px;
+        }
       }
+
       .container {
         width: 960px;
       }
@@ -40,6 +44,18 @@
     </style>
 </head>
 <body>
+  <!-- Mobile-friendly navbar adpated from example. -->
+  <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <button type="button" class="btn btn-navbar"
+              data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+  </div>
   <div class="container">
     <div class="row navigation">
       <div class="span2 logo">
